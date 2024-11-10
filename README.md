@@ -77,3 +77,9 @@ combined with generator. For transaction dataset (borrowing, hold, review, visit
 | holds       | 🔄     |
 | favorites   | 🔄     |
 | reviews     | 🔄     |
+
+To import dataset you can
+1. Use import feature in SQL Client (PGAdmin or DataGrip) for each file dataset.
+2. Running command `uv run cli/book.py &> error.log` this is can download dataset and insert to database
+
+> Before you import dataset, ensure your database schema is ready, running `dump.sql`
