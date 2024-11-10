@@ -53,7 +53,7 @@ This is a list of tables (not all table) in the database schema.
 
 This is an ERD diagram of the database schema.
 
-![ERD](/dataset/erd.png)
+![ERD](erd.png)
 
 ## Dummy Data
 
