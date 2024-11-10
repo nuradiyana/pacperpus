@@ -57,18 +57,15 @@ This is an ERD diagram of the database schema.
 
 ## Dummy Data
 
-Dataset diambil utamanya dari kaggle,
-yaitu [elvinrustam/books-dataset](https://www.kaggle.com/datasets/elvinrustam/books-dataset) digabungkan dengan
-generator.
-Untuk dataset transaksi (penjaman, hold, review, visitors, dll)
-menggunakan [Faker](https://faker.readthedocs.io/en/master/).
+The dataset is taken mainly from kaggle, namely [elvinrustam/books-dataset](https://www.kaggle.com/datasets/elvinrustam/books-dataset) 
+combined with generator. For transaction dataset (borrowing, hold, review, visitors, etc.) using [Faker](https://faker.readthedocs.io/en/master/).
 
 | Dataset     | Status |
 |-------------|--------|
-| books       | ✅      |
-| authors     | ✅      |
-| categories  | ✅      |
-| publishers  | ✅      |
+| books       | ✅     |
+| authors     | ✅     |
+| categories  | ✅     |
+| publishers  | ✅     |
 | collections | 🔄     |
 | libraries   | 🔄     |
 | employees   | 🔄     |
